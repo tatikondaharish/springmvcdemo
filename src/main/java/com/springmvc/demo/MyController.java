@@ -9,12 +9,12 @@ public class MyController {
 	// create a method to accept the form
 	@RequestMapping("/showForm")
 	public String showForm() {
-		return "showForm";
+		return "helloworld-form";
 	}
 	
 	@RequestMapping("/processForm")
 	public String mainPage() {
-		return "processForm";
+		return "helloworld";
 	}
 }
 
